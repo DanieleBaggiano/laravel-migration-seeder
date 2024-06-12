@@ -34,3 +34,19 @@ return new class extends Migration
         Schema::dropIfExists('trains');
     }
 };
+
+
+// CREATE TABLE trains (
+//     id BIGINT AUTO_INCREMENT PRIMARY KEY,
+//     azienda VARCHAR(255) NOT NULL,
+//     stazione_partenza VARCHAR(255) NOT NULL,
+//     stazione_arrivo VARCHAR(255) NOT NULL,
+//     orario_partenza TIME NOT NULL,
+//     orario_arrivo TIME NOT NULL,
+//     codice_treno VARCHAR(255) NOT NULL,
+//     numero_carrozze INT UNSIGNED NOT NULL,
+//     in_orario BOOLEAN DEFAULT TRUE,
+//     cancellato BOOLEAN DEFAULT FALSE,
+//     created_at TIMESTAMP NULL DEFAULT NULL,
+//     updated_at TIMESTAMP NULL DEFAULT NULL
+// );
